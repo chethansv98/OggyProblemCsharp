@@ -30,9 +30,6 @@ class NoOggyChecker
     else{
       Console.WriteLine("Failed!!");
       return 1;
-	  
-	  
-	  
-    }
+	}
   } 
 }

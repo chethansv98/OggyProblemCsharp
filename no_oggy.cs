@@ -5,7 +5,7 @@ using System.Linq;
 class NoOggyChecker
 {
   static void RemoveOggy(List<string> names)
-  {
+  {  
     foreach (var name in names.ToList())
     {
         if(name.StartsWith("oggy")) {
@@ -26,9 +26,13 @@ class NoOggyChecker
     if(OggyIsRemoved(names)) {
       Console.WriteLine("Passed!");
       return 0;
-    } else {
+    }
+    else{
       Console.WriteLine("Failed!!");
       return 1;
+	  
+	  
+	  
     }
   } 
 }
